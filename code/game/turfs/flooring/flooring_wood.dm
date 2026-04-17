@@ -1,9 +1,8 @@
 /decl/flooring/wood
 	name               = "wooden floor"
 	desc               = "A stretch of closely-fitted wooden planks."
-	icon               = 'icons/turf/flooring/wood.dmi'
-	icon_base          = "wood"
-	has_base_range     = 4
+	icon               = 'icons/turf/flooring/newfloors/wood.dmi'
+	icon_base          = "woodenboards"
 	damage_temperature = T0C+200
 	descriptor         = "planks"
 	build_type         = /obj/item/stack/tile/wood
@@ -13,15 +12,7 @@
 	force_material     = /decl/material/solid/organic/wood
 	constructed        = TRUE
 	gender             = NEUTER
-	broken_states      = list(
-		"broken0",
-		"broken1",
-		"broken2",
-		"broken3",
-		"broken4",
-		"broken5",
-		"broken6"
-	)
+	broken_states      = null
 
 /decl/flooring/wood/mahogany
 	color              = /decl/material/solid/organic/wood/mahogany::color

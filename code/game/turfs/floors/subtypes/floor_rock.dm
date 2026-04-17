@@ -1,6 +1,6 @@
 /turf/floor/rock
 	name           = "rock floor"
-	icon           = 'icons/turf/flooring/rock.dmi'
+	icon 		   = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_state     = "rock"
 	_base_flooring = /decl/flooring/rock
 

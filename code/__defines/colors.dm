@@ -236,3 +236,12 @@ var/global/list/telecomms_colours = list(
 #define COLOR_DARKMODE_TEXT "#a4bad6"
 
 #define COLORED_SQUARE(COLOR) "<span style='font-face: fixedsys; font-size: 14px; background-color: [COLOR]; color: [COLOR]'>___</span>"
+
+// Various new colours for the new sprites (Patent pending)
+
+// Colors
+#define COLOR_BASALT "#819796"
+
+// Grasses
+#define COLOR_SHORTGRASS ""
+#define COLOR_TALLGRASS "#"

@@ -1,7 +1,7 @@
 /decl/flooring/rock
 	name            = "rock floor"
 	desc            = "An expanse of bare rock."
-	icon            = 'icons/turf/flooring/rock.dmi'
+	icon 			= 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_base       = "rock"
 	has_base_range  = null
 	color           = null

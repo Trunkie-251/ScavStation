@@ -38,7 +38,7 @@
 	color           = COLOR_WHITE
 	footstep_type   = /decl/footsteps/asteroid
 	turf_flags      = TURF_FLAG_BACKGROUND | TURF_IS_HOLOMAP_PATH
-	has_base_range  = 2
+	has_base_range  = 3
 	icon_edge_layer = FLOOR_EDGE_BARREN
 	force_material  = /decl/material/solid/soil
 	growth_value    = 0.1
@@ -46,7 +46,7 @@
 /decl/flooring/clay
 	name            = "clay"
 	desc            = "A stretch of thick, claggy clay."
-	icon            = 'icons/turf/flooring/clay.dmi'
+	icon 			= 'icons/turf/flooring/clay.dmi'
 	icon_base       = "clay"
 	icon_edge_layer = FLOOR_EDGE_CLAY
 	footstep_type   = /decl/footsteps/mud
