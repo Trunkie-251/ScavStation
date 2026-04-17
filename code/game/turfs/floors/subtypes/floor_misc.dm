@@ -57,9 +57,9 @@
 // Dirt plating for Tradeship farms.
 /turf/floor/plating/dirt
 	name = "dirt"
-	icon = 'icons/turf/flooring/dirt.dmi'
+	icon = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_state = "dirt"
-	color = "#41311b"
+	color = "#ffdac4"
 	_flooring = /decl/flooring/dirt
 
 /turf/floor/plating/broken

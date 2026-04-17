@@ -1,14 +1,14 @@
 /turf/floor/barren
 	name = "ground"
-	icon = 'icons/turf/flooring/barren.dmi'
+	icon = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_state = "barren"
 	_base_flooring = /decl/flooring/barren
 
 /turf/floor/dirt
 	name = "dirt"
-	icon = 'icons/turf/flooring/dirt.dmi'
+	icon = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_state = "dirt"
-	color = "#41311b"
+	color = "#ffdac4"
 	_base_flooring = /decl/flooring/dirt
 
 /turf/floor/chlorine_sand
@@ -33,13 +33,13 @@
 	name = "grass"
 	icon = 'icons/turf/flooring/grass.dmi'
 	icon_state = "grass0"
-	color = "#5e7a3b"
+	color = "#ceffda"
 	_flooring = /decl/flooring/grass
 	_base_flooring = /decl/flooring/dirt
 
 /turf/floor/grass/wild
 	name = "wild grass"
-	icon = 'icons/turf/flooring/wildgrass.dmi'
+	icon = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_state = "wildgrass"
 	_flooring = /decl/flooring/grass/wild
 	_base_flooring = /decl/flooring/dirt
@@ -70,7 +70,7 @@
 
 /turf/floor/mud
 	name = "mud"
-	icon = 'icons/turf/flooring/mud.dmi'
+	icon = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_state = "mud"
 	_base_flooring = /decl/flooring/mud
 

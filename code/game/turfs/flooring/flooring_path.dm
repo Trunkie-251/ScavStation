@@ -1,6 +1,7 @@
 /decl/flooring/path
 	abstract_type  = /decl/flooring/path
-	icon           = 'icons/turf/flooring/path.dmi'
+	// icon           = 'icons/turf/flooring/path.dmi'
+	icon           = 'icons/turf/flooring/newfloors/pathways.dmi'
 	flooring_flags = TURF_REMOVE_CROWBAR
 	build_type     = null
 	can_engrave    = TRUE

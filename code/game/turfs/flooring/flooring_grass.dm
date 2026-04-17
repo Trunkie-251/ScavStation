@@ -1,12 +1,12 @@
 /decl/flooring/grass
 	name               = "grass"
-	icon               = 'icons/turf/flooring/grass.dmi'
-	icon_base          = "grass"
+	icon 			   = 'icons/turf/flooring/newfloors/natural.dmi'
+	icon_base          = "wildgrass"
 	desc               = "A patch of thriving meadowgrass."
-	has_base_range     = 3
+	has_base_range     = 4
 	footstep_type      = /decl/footsteps/grass
 	icon_edge_layer    = FLOOR_EDGE_GRASS
-	color              = "#5e7a3b"
+	color              = "#ceffda"
 	turf_flags         = TURF_FLAG_BACKGROUND | TURF_IS_HOLOMAP_PATH | TURF_FLAG_ABSORB_LIQUID
 	can_engrave        = FALSE
 	damage_temperature = T0C+80
@@ -23,11 +23,13 @@
 
 /decl/flooring/grass/wild
 	name               = "wild grass"
-	icon               = 'icons/turf/flooring/wildgrass.dmi'
+	icon 			   = 'icons/turf/flooring/newfloors/natural.dmi'
+//	icon               = 'icons/turf/flooring/wildgrass.dmi'
 	icon_base          = "wildgrass"
 	desc               = "A lush, overgrown patch of wild meadowgrass. Watch out for snakes."
-	has_base_range     = null
+	has_base_range     = 4
 	icon_edge_layer    = FLOOR_EDGE_GRASS_WILD
+	color              = "#e9fdb2"
 	harvestable        = TRUE
 
 /decl/flooring/grass/wild/get_movable_alpha_mask_state(atom/movable/mover)

@@ -4,7 +4,8 @@
 	gender         = NEUTER
 	desc           = "A cobbled path made of loose stones."
 	color          = COLOR_GRAY
-	icon           = 'icons/turf/flooring/path.dmi'
+	// icon           = 'icons/turf/flooring/path.dmi'
+	icon           = 'icons/turf/flooring/newfloors/pathways.dmi'
 	icon_state     = "cobble"
 	_flooring      = /decl/flooring/path/cobblestone
 	floor_material = /decl/material/solid/stone/sandstone

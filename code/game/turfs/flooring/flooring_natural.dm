@@ -33,11 +33,12 @@
 /decl/flooring/barren
 	name            = "ground"
 	desc            = "A stretch of bare, barren sand."
-	icon            = 'icons/turf/flooring/barren.dmi'
+	icon 			= 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_base       = "barren"
 	color           = COLOR_WHITE
 	footstep_type   = /decl/footsteps/asteroid
 	turf_flags      = TURF_FLAG_BACKGROUND | TURF_IS_HOLOMAP_PATH
+	has_base_range  = 2
 	icon_edge_layer = FLOOR_EDGE_BARREN
 	force_material  = /decl/material/solid/soil
 	growth_value    = 0.1

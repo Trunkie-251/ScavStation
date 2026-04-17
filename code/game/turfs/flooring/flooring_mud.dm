@@ -1,11 +1,13 @@
 /decl/flooring/mud
 	name            = "mud"
 	desc            = "A stretch of thick, waterlogged mud."
-	icon            = 'icons/turf/flooring/mud.dmi'
+	// icon            = 'icons/turf/flooring/mud.dmi'
+	icon            = 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_base       = "mud"
 	icon_edge_layer = FLOOR_EDGE_MUD
 	footstep_type   = /decl/footsteps/mud
 	turf_flags      = TURF_FLAG_BACKGROUND | TURF_IS_HOLOMAP_PATH | TURF_FLAG_ABSORB_LIQUID
+	has_base_range  = 2
 	force_material  = /decl/material/solid/soil
 	growth_value    = 1.1
 
@@ -42,10 +44,10 @@
 /decl/flooring/dirt
 	name            = "dirt"
 	desc            = "A flat expanse of dry, cracked earth."
-	icon            = 'icons/turf/flooring/dirt.dmi'
+	icon 			= 'icons/turf/flooring/newfloors/natural.dmi'
 	icon_base       = "dirt"
 	icon_edge_layer = FLOOR_EDGE_DIRT
-	color           = "#41311b"
+	color           = "#ffdac4"
 	footstep_type   = /decl/footsteps/asteroid
 	turf_flags      = TURF_FLAG_BACKGROUND | TURF_IS_HOLOMAP_PATH | TURF_FLAG_ABSORB_LIQUID
 	force_material  = /decl/material/solid/soil
